@@ -1,4 +1,4 @@
---[[ athena ui lib
+--[[ athena ui library
 	i dont think they exist anymore idk
 	made just for memories
 ]]
@@ -247,7 +247,7 @@ function ret:Library(Name)
 		Min.Name = "Min"
 		Min.Parent = Top
 		Min.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Min.BorderColor3 = Color3.fromRGB(51, 51, 51)
+		Min.BorderColor3 = Color3.fromRGB(73, 107, 193)
 		Min.BorderSizePixel = 2
 		Min.Position = UDim2.new(0.879999995, -1, 0.125, 0)
 		Min.Size = UDim2.new(0, 17, 0, 17)
@@ -260,7 +260,7 @@ function ret:Library(Name)
 		Max.Name = "Max"
 		Max.Parent = Top
 		Max.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Max.BorderColor3 = Color3.fromRGB(51, 51, 51)
+		Max.BorderColor3 = Color3.fromRGB(73, 107, 193)
 		Max.BorderSizePixel = 2
 		Max.Position = UDim2.new(0.713039219, 0, 0.125, 0)
 		Max.Size = UDim2.new(0, 17, 0, 17)
