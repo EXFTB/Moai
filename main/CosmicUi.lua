@@ -331,7 +331,7 @@ function ret:Library(Name)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Holder
-			Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
+			Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 			Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Toggle.Size = UDim2.new(0, 154, 0, 20)
 			Toggle.BackgroundTransparency = .2
@@ -987,7 +987,7 @@ function ret:Library(Name)
 	
 				Toggle.Name = "Toggle"
 				Toggle.Parent = DFrame
-				Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
+				Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 				Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Toggle.Size = UDim2.new(0, 146, 0, 20)
 				Toggle.BackgroundTransparency = .2
@@ -1349,7 +1349,7 @@ function ret:Library(Name)
 		
 					Toggle.Name = "Toggle"
 					Toggle.Parent = SplitHolder
-					Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
+					Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 					Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Toggle.Size = UDim2.new(0, 154/2, 0, 20)
 					Toggle.BackgroundTransparency = .2
