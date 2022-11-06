@@ -60,7 +60,7 @@ function ret:Library(Name)
 
 	Frame.Parent = NoteSample
 	Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BackgroundTransparency = 0.300
+	Frame.BackgroundTransparency = 0
 	Frame.BorderSizePixel = 0
 	Frame.Size = UDim2.new(1, 0, 1, 0)
 	Frame.ZIndex = 16
@@ -225,7 +225,7 @@ function ret:Library(Name)
 		Top.Name = "Top"
 		Top.Parent = Window1
 		Top.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
-		Top.BackgroundTransparency = 0.350
+		Top.BackgroundTransparency = 0
 		Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Top.BorderSizePixel = 2
 		Top.Size = UDim2.new(0, 160, 0, 24)
@@ -279,7 +279,7 @@ function ret:Library(Name)
 		Holder.Position = UDim2.new(0, 0, 0, 26)
 		Holder.Size = UDim2.new(0, 160, 0, 100)
 		Holder.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
-		Holder.BackgroundTransparency = 0.350
+		Holder.BackgroundTransparency = 0
 		Holder.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Holder.BorderSizePixel = 2
 
@@ -331,7 +331,7 @@ function ret:Library(Name)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Holder
-			Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+			Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
 			Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Toggle.Size = UDim2.new(0, 154, 0, 20)
 			Toggle.BackgroundTransparency = .2
@@ -987,7 +987,7 @@ function ret:Library(Name)
 	
 				Toggle.Name = "Toggle"
 				Toggle.Parent = DFrame
-				Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+				Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
 				Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Toggle.Size = UDim2.new(0, 146, 0, 20)
 				Toggle.BackgroundTransparency = .2
@@ -1349,7 +1349,7 @@ function ret:Library(Name)
 		
 					Toggle.Name = "Toggle"
 					Toggle.Parent = SplitHolder
-					Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+					Toggle.BackgroundColor3 = Color3.fromRGB(10, 86, 155)
 					Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Toggle.Size = UDim2.new(0, 154/2, 0, 20)
 					Toggle.BackgroundTransparency = .2
