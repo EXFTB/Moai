@@ -44,7 +44,7 @@ function ret:Library(Name)
 	Notifications.Name = "Notifications"
 	Notifications.Parent = aui
 	Notifications.AnchorPoint = Vector2.new(1, 0)
-	Notifications.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+	Notifications.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Notifications.BackgroundTransparency = 1.000
 	Notifications.Position = UDim2.new(.13, 10, 1, -230)
 	Notifications.Size = UDim2.new(0, 250, 0, 100)
@@ -67,20 +67,20 @@ function ret:Library(Name)
 
 	textName.Name = "textName"
 	textName.Parent = Frame
-	textName.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+	textName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	textName.BackgroundTransparency = 1.000
 	textName.BorderSizePixel = 0
 	textName.Size = UDim2.new(1, 0, 0.5, 0)
 	textName.ZIndex = 16
 	textName.Font = Enum.Font.SourceSansBold
 	textName.Text = ""
-	textName.TextColor3 = Color3.fromRGB(12, 12, 12)
+	textName.TextColor3 = Color3.fromRGB(0, 0, 0)
 	textName.TextSize = 18.000
 	textName.TextWrapped = true
 
 	textMessage.Name = "textMessage"
 	textMessage.Parent = Frame
-	textMessage.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+	textMessage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	textMessage.BackgroundTransparency = 1.000
 	textMessage.BorderSizePixel = 0
 	textMessage.Position = UDim2.new(0, 0, 0.5, 0)
@@ -209,7 +209,7 @@ function ret:Library(Name)
 
 		Window1.Name = "Window"..tostring(m)
 		Window1.Parent = aui
-		Window1.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+		Window1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Window1.BackgroundTransparency = 1
 		Window1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Window1.BorderSizePixel = 2
@@ -224,14 +224,14 @@ function ret:Library(Name)
 
 		Top.Name = "Top"
 		Top.Parent = Window1
-		Top.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+		Top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Top.BackgroundTransparency = 0.350
 		Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Top.BorderSizePixel = 2
 		Top.Size = UDim2.new(0, 160, 0, 24)
 
 		TextLabel.Parent = Top
-		TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+		TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		TextLabel.BackgroundTransparency = 1.000
 		TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TextLabel.BorderSizePixel = 0
@@ -239,7 +239,7 @@ function ret:Library(Name)
 		TextLabel.Size = UDim2.new(0, 95, 0, 24)
 		TextLabel.Font = Enum.Font.SourceSansBold
 		TextLabel.Text = tostring(rbrbrb)
-		TextLabel.TextColor3 = Color3.fromRGB(12, 12, 12)
+		TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 		TextLabel.TextSize = 20.000
 		TextLabel.TextStrokeTransparency = 1
 		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -247,26 +247,26 @@ function ret:Library(Name)
 		Min.Name = "Min"
 		Min.Parent = Top
 		Min.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Min.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		Min.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Min.BorderSizePixel = 2
 		Min.Position = UDim2.new(0.879999995, -1, 0.125, 0)
 		Min.Size = UDim2.new(0, 17, 0, 17)
 		Min.Font = Enum.Font.SourceSans
 		Min.LineHeight = 1.150
 		Min.Text = "-"
-		Min.TextColor3 = Color3.fromRGB(12, 12, 12)
+		Min.TextColor3 = Color3.fromRGB(0, 0, 0)
 		Min.TextSize = 39.000
 
 		Max.Name = "Max"
 		Max.Parent = Top
 		Max.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Max.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		Max.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Max.BorderSizePixel = 2
 		Max.Position = UDim2.new(0.713039219, 0, 0.125, 0)
 		Max.Size = UDim2.new(0, 17, 0, 17)
 		Max.Font = Enum.Font.SourceSans
 		Max.Text = ""
-		Max.TextColor3 = Color3.fromRGB(12, 12, 12)
+		Max.TextColor3 = Color3.fromRGB(0, 0, 0)
 		Max.TextSize = 35.000
 		Max.TextWrapped = true
 
@@ -278,7 +278,7 @@ function ret:Library(Name)
 		Holder.Parent = Top
 		Holder.Position = UDim2.new(0, 0, 0, 26)
 		Holder.Size = UDim2.new(0, 160, 0, 100)
-		Holder.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+		Holder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Holder.BackgroundTransparency = 0.350
 		Holder.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Holder.BorderSizePixel = 2
@@ -331,20 +331,20 @@ function ret:Library(Name)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Holder
-			Toggle.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Toggle.Size = UDim2.new(0, 154, 0, 20)
 			Toggle.BackgroundTransparency = .2
 
 			TextButton.Parent = Toggle
-			TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.BackgroundTransparency = 1.000
 			TextButton.BorderSizePixel = 3
 			TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
 			TextButton.Text = tostring(name)
-			TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
 			TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -370,19 +370,19 @@ function ret:Library(Name)
 
 			Button.Name = "Button"
 			Button.Parent = Holder
-			Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Button.Size = UDim2.new(0, 154, 0, 20)
 			Button.BackgroundTransparency = .2
 
 			TextButton.Parent = Button
-			TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.BackgroundTransparency = 1.000
 			TextButton.BorderSizePixel = 3
 			TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
-			TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.Text = tostring(n)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
@@ -405,20 +405,20 @@ function ret:Library(Name)
 
 			Keybind.Name = "Keybind"
 			Keybind.Parent = Holder
-			Keybind.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Keybind.Size = UDim2.new(0, 154, 0, 20)
 			Keybind.BackgroundTransparency = .2
 
 			TextButton.Parent = Keybind
-			TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.BackgroundTransparency = 1.000
 			TextButton.BorderSizePixel = 3
 			TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
 			TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-			TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
 
@@ -458,7 +458,7 @@ function ret:Library(Name)
 
 			Label.Name = "Label"
 			Label.Parent = Holder
-			Label.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Label.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Label.Position = UDim2.new(0, 0, 0, 48)
 			Label.Size = UDim2.new(0, 154, 0, 20)
@@ -466,14 +466,14 @@ function ret:Library(Name)
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Label
-			TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 3
 			TextLabel.Position = UDim2.new(0.0329861119, 0, 0.0500000007, 0)
 			TextLabel.Size = UDim2.new(0, 148, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(text)
-			TextLabel.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -493,21 +493,21 @@ function ret:Library(Name)
 
 			Slider.Name = "Slider"
 			Slider.Parent = Holder
-			Slider.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Slider.Position = UDim2.new(0, 0, 0, 72)
 			Slider.Size = UDim2.new(0, 154, 0, 20)
 			Slider.BackgroundTransparency = .2
 
 			SliderFrame.Parent = Slider
-			SliderFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			SliderFrame.BackgroundTransparency = 1.000
 			SliderFrame.BorderSizePixel = 3
 			SliderFrame.Position = UDim2.new(0.026041666, 0, 0, 0)
 			SliderFrame.Size = UDim2.new(0, 148, 0, 20)
 			SliderFrame.Font = Enum.Font.SourceSansBold
 			SliderFrame.Text = tostring(n)..": "..tostring(default)
-			SliderFrame.TextColor3 = Color3.fromRGB(12, 12, 12)
+			SliderFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
 			SliderFrame.TextSize = 15.000
 			SliderFrame.TextStrokeTransparency = 1
 			SliderFrame.ZIndex = 2
@@ -518,7 +518,7 @@ function ret:Library(Name)
 
 			Slider_2.Name = "Slider"
 			Slider_2.Parent = Slider
-			Slider_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Slider_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Slider_2.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Slider_2.BorderSizePixel = 1
 			Slider_2.Position = UDim2.new(0, 0, 0, 1)
@@ -578,7 +578,7 @@ function ret:Library(Name)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = Holder
-			Textbox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Textbox.Position = UDim2.new(0, 0, 0, 168)
 			Textbox.Size = UDim2.new(0, 154, 0, 20)
@@ -589,7 +589,7 @@ function ret:Library(Name)
 			UIGradient.Parent = Textbox
 
 			TextBox.Parent = Textbox
-			TextBox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextBox.BackgroundTransparency = 1.000
 			TextBox.Position = UDim2.new(0.0267857146, 0, 0, 0)
 			TextBox.Size = UDim2.new(0, 148, 0, 20)
@@ -597,14 +597,14 @@ function ret:Library(Name)
 			TextBox.PlaceholderText = tostring(n)
 			TextBox.Font = Enum.Font.SourceSansBold
 			TextBox.Text = ""
-			TextBox.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextBox.TextSize = 15.000
 			TextBox.TextStrokeTransparency = 1
 			TextBox.TextXAlignment = Enum.TextXAlignment.Left
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Textbox
-			TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.Position = UDim2.new(0.0267857146, 0, 0, 0)
 			TextLabel.Size = UDim2.new(0, 148, 0, 20)
@@ -675,7 +675,7 @@ function ret:Library(Name)
 
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = Holder
-			Dropdown.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Dropdown.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Dropdown.Position = UDim2.new(0, 0, 0, 24)
 			Dropdown.Size = UDim2.new(0, 154, 0, 20)
@@ -683,14 +683,14 @@ function ret:Library(Name)
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Dropdown
-			TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 3
 			TextLabel.Position = UDim2.new(0.026041666, 0, 0, 0)
 			TextLabel.Size = UDim2.new(0, 128, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(n)
-			TextLabel.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -700,7 +700,7 @@ function ret:Library(Name)
 			UIGradient.Parent = Dropdown
 
 			ImageButton.Parent = Dropdown
-			ImageButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ImageButton.BackgroundTransparency = 1.000
 			ImageButton.Position = UDim2.new(0.854166746, 0, 0.0500000007, 0)
 			ImageButton.Rotation = 0
@@ -715,7 +715,7 @@ function ret:Library(Name)
 
 			DFrame.Name = "DFrame"
 			DFrame.Parent = Dropdown
-			DFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			DFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			DFrame.BorderColor3 = Color3.fromRGB(8, 9, 17)
 			DFrame.Position = UDim2.new(0, 0, 1, 0)
 			DFrame.Size = UDim2.new(0, 154, 0, 100)
@@ -789,21 +789,21 @@ function ret:Library(Name)
 
 				OptionParent.Name = "OptionParent"
 				OptionParent.Parent = DFrame
-				OptionParent.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				OptionParent.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				OptionParent.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				OptionParent.Size = UDim2.new(0, 146, 0, 20)
 				OptionParent.BackgroundTransparency = .3
 
 				Option.Name = "Option"
 				Option.Parent = OptionParent
-				Option.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Option.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Option.BackgroundTransparency = 1.000
 				Option.BorderSizePixel = 3
 				Option.Position = UDim2.new(0.0260417033, 0, 0, 0)
 				Option.Size = UDim2.new(0, 140, 0, 20)
 				Option.Text = tostring(thing)
 				Option.Font = Enum.Font.SourceSansBold
-				Option.TextColor3 = Color3.fromRGB(12, 12, 12)
+				Option.TextColor3 = Color3.fromRGB(0, 0, 0)
 				Option.TextSize = 15.000
 				Option.TextStrokeTransparency = 1
 				Option.TextXAlignment = Enum.TextXAlignment.Left
@@ -865,7 +865,7 @@ function ret:Library(Name)
 
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = Holder
-			Dropdown.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Dropdown.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Dropdown.Position = UDim2.new(0, 0, 0, 24)
 			Dropdown.Size = UDim2.new(0, 154, 0, 20)
@@ -873,14 +873,14 @@ function ret:Library(Name)
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Dropdown
-			TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 3
 			TextLabel.Position = UDim2.new(0.026041666, 0, 0, 0)
 			TextLabel.Size = UDim2.new(0, 128, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(n)
-			TextLabel.TextColor3 = Color3.fromRGB(12, 12, 12)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -890,7 +890,7 @@ function ret:Library(Name)
 			UIGradient.Parent = DFrame
 
 			ImageButton.Parent = Dropdown
-			ImageButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ImageButton.BackgroundTransparency = 1.000
 			ImageButton.Position = UDim2.new(0.854166746, 0, 0.0500000007, 0)
 			ImageButton.Rotation = 0
@@ -905,7 +905,7 @@ function ret:Library(Name)
 
 			DFrame.Name = "DFrame"
 			DFrame.Parent = Dropdown
-			DFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			DFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			DFrame.BorderColor3 = Color3.fromRGB(8, 9, 17)
 			DFrame.Position = UDim2.new(0, 0, 1, 0)
 			DFrame.Size = UDim2.new(0, 154, 0, 100)
@@ -987,20 +987,20 @@ function ret:Library(Name)
 	
 				Toggle.Name = "Toggle"
 				Toggle.Parent = DFrame
-				Toggle.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Toggle.Size = UDim2.new(0, 146, 0, 20)
 				Toggle.BackgroundTransparency = .2
 	
 				TextButton.Parent = Toggle
-				TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.BackgroundTransparency = 1.000
 				TextButton.BorderSizePixel = 3
 				TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
 				TextButton.Text = tostring(name)
-				TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
 				TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -1025,19 +1025,19 @@ function ret:Library(Name)
 	
 				Button.Name = "Button"
 				Button.Parent = DFrame
-				Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Button.Size = UDim2.new(0, 146, 0, 20)
 				Button.BackgroundTransparency = .2
 	
 				TextButton.Parent = Button
-				TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.BackgroundTransparency = 1.000
 				TextButton.BorderSizePixel = 3
 				TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
-				TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.Text = tostring(n)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
@@ -1059,20 +1059,20 @@ function ret:Library(Name)
 	
 				Keybind.Name = "Keybind"
 				Keybind.Parent = DFrame
-				Keybind.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Keybind.Size = UDim2.new(0, 146, 0, 20)
 				Keybind.BackgroundTransparency = .2
 	
 				TextButton.Parent = Keybind
-				TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.BackgroundTransparency = 1.000
 				TextButton.BorderSizePixel = 3
 				TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
 				TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-				TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+				TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
 	
@@ -1113,21 +1113,21 @@ function ret:Library(Name)
 	
 				Slider.Name = "Slider"
 				Slider.Parent = DFrame
-				Slider.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Slider.Position = UDim2.new(0, 0, 0, 72)
 				Slider.Size = UDim2.new(0, 146, 0, 20)
 				Slider.BackgroundTransparency = .2
 	
 				SliderFrame.Parent = Slider
-				SliderFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				SliderFrame.BackgroundTransparency = 1.000
 				SliderFrame.BorderSizePixel = 3
 				SliderFrame.Position = UDim2.new(0.026041666, 0, 0, 0)
 				SliderFrame.Size = UDim2.new(0, 140, 0, 20)
 				SliderFrame.Font = Enum.Font.SourceSansBold
 				SliderFrame.Text = tostring(n)..": "..tostring(default)
-				SliderFrame.TextColor3 = Color3.fromRGB(12, 12, 12)
+				SliderFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
 				SliderFrame.TextSize = 15.000
 				SliderFrame.TextStrokeTransparency = 1
 				SliderFrame.ZIndex = 2
@@ -1138,7 +1138,7 @@ function ret:Library(Name)
 	
 				Slider_2.Name = "Slider"
 				Slider_2.Parent = Slider
-				Slider_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Slider_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Slider_2.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Slider_2.BorderSizePixel = 1
 				Slider_2.Position = UDim2.new(0, 0, 0, 1)
@@ -1197,7 +1197,7 @@ function ret:Library(Name)
 	
 				Textbox.Name = "Textbox"
 				Textbox.Parent = DFrame
-				Textbox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				Textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Textbox.Position = UDim2.new(0, 0, 0, 168)
 				Textbox.Size = UDim2.new(0, 146, 0, 20)
@@ -1208,7 +1208,7 @@ function ret:Library(Name)
 				UIGradient.Parent = Textbox
 	
 				TextBox.Parent = Textbox
-				TextBox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextBox.BackgroundTransparency = 1.000
 				TextBox.Position = UDim2.new(0.0267857146, 0, 0, 0)
 				TextBox.Size = UDim2.new(0, 140, 0, 20)
@@ -1216,14 +1216,14 @@ function ret:Library(Name)
 				TextBox.PlaceholderText = tostring(n)
 				TextBox.Font = Enum.Font.SourceSansBold
 				TextBox.Text = ""
-				TextBox.TextColor3 = Color3.fromRGB(12, 12, 12)
+				TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 				TextBox.TextSize = 15.000
 				TextBox.TextStrokeTransparency = 1
 				TextBox.TextXAlignment = Enum.TextXAlignment.Left
 	
 				TextLabel.Name = "TextLabel"
 				TextLabel.Parent = Textbox
-				TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+				TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextLabel.BackgroundTransparency = 1.000
 				TextLabel.Position = UDim2.new(0.0267857146, 0, 0, 0)
 				TextLabel.Size = UDim2.new(0, 148, 0, 20)
@@ -1326,7 +1326,7 @@ function ret:Library(Name)
 
 			SplitHolder.Name = "SplitFrame"
 			SplitHolder.Parent = Holder
-			SplitHolder.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+			SplitHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			SplitHolder.BackgroundTransparency = 0.200
 			SplitHolder.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			SplitHolder.Size = UDim2.new(0, 153, 0, 20)
@@ -1349,20 +1349,20 @@ function ret:Library(Name)
 		
 					Toggle.Name = "Toggle"
 					Toggle.Parent = SplitHolder
-					Toggle.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Toggle.Size = UDim2.new(0, 154/2, 0, 20)
 					Toggle.BackgroundTransparency = .2
 		
 					TextButton.Parent = Toggle
-					TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.BackgroundTransparency = 1.000
 					TextButton.BorderSizePixel = 3
 					TextButton.Position = UDim2.new(0.026041666, 0, 0, 0)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
 					TextButton.Text = tostring(name)
-					TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
 					TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -1390,19 +1390,19 @@ function ret:Library(Name)
 		
 					Button.Name = "Button"
 					Button.Parent = SplitHolder
-					Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Button.Size = UDim2.new(0, 154/2, 0, 20)
 					Button.BackgroundTransparency = .2
 		
 					TextButton.Parent = Button
-					TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.BackgroundTransparency = 1.000
 					TextButton.BorderSizePixel = 3
 					TextButton.Position = UDim2.new(0, 0, 0, 0)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
-					TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.Text = tostring(n)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
@@ -1427,20 +1427,20 @@ function ret:Library(Name)
 		
 					Keybind.Name = "Keybind"
 					Keybind.Parent = SplitHolder
-					Keybind.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Keybind.Size = UDim2.new(0, 154/2, 0, 20)
 					Keybind.BackgroundTransparency = .2
 		
 					TextButton.Parent = Keybind
-					TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.BackgroundTransparency = 1.000
 					TextButton.BorderSizePixel = 3
 					TextButton.Position = UDim2.new(0, 0, 0, 0)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
 					TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-					TextButton.TextColor3 = Color3.fromRGB(12, 12, 12)
+					TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
 		
@@ -1484,21 +1484,21 @@ function ret:Library(Name)
 		
 					Slider.Name = "Slider"
 					Slider.Parent = SplitHolder
-					Slider.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Slider.Position = UDim2.new(0, 0, 0, 0)
 					Slider.Size = UDim2.new(0, 154/2, 0, 20)
 					Slider.BackgroundTransparency = .2
 		
 					SliderFrame.Parent = Slider
-					SliderFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					SliderFrame.BackgroundTransparency = 1.000
 					SliderFrame.BorderSizePixel = 3
 					SliderFrame.Position = UDim2.new(0, 0, 0, 0)
 					SliderFrame.Size = UDim2.new(0, 148/2, 0, 20)
 					SliderFrame.Font = Enum.Font.SourceSansBold
 					SliderFrame.Text = tostring(n)..": "..tostring(default)
-					SliderFrame.TextColor3 = Color3.fromRGB(12, 12, 12)
+					SliderFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
 					SliderFrame.TextSize = 15.000
 					SliderFrame.TextStrokeTransparency = 1
 					SliderFrame.ZIndex = 2
@@ -1509,7 +1509,7 @@ function ret:Library(Name)
 		
 					Slider_2.Name = "Slider"
 					Slider_2.Parent = Slider
-					Slider_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Slider_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Slider_2.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Slider_2.BorderSizePixel = 1
 					Slider_2.Position = UDim2.new(0, 0, 0, 1)
@@ -1571,7 +1571,7 @@ function ret:Library(Name)
 		
 					Textbox.Name = "Textbox"
 					Textbox.Parent = SplitHolder
-					Textbox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					Textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Textbox.Position = UDim2.new(0, 0, 0, 0)
 					Textbox.Size = UDim2.new(0, 154/2, 0, 20)
@@ -1582,7 +1582,7 @@ function ret:Library(Name)
 					UIGradient.Parent = Textbox
 		
 					TextBox.Parent = Textbox
-					TextBox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					TextBox.BackgroundTransparency = 1.000
 					TextBox.Position = UDim2.new(0.0267857146, 0, 0, 0)
 					TextBox.Size = UDim2.new(0, 148/2, 0, 20)
@@ -1590,14 +1590,14 @@ function ret:Library(Name)
 					TextBox.PlaceholderText = tostring(n)
 					TextBox.Font = Enum.Font.SourceSansBold
 					TextBox.Text = ""
-					TextBox.TextColor3 = Color3.fromRGB(12, 12, 12)
+					TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 					TextBox.TextSize = 15.000
 					TextBox.TextStrokeTransparency = 1
 					TextBox.TextXAlignment = Enum.TextXAlignment.Left
 		
 					TextLabel.Name = "TextLabel"
 					TextLabel.Parent = Textbox
-					TextLabel.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+					TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					TextLabel.BackgroundTransparency = 1.000
 					TextLabel.Position = UDim2.new(0.0267857146, 0, 0, 0)
 					TextLabel.Size = UDim2.new(0, 148/2, 0, 20)
