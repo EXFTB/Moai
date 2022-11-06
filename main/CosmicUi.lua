@@ -74,7 +74,7 @@ function ret:Library(Name)
 	textName.ZIndex = 16
 	textName.Font = Enum.Font.SourceSansBold
 	textName.Text = ""
-	textName.TextColor3 = Color3.fromRGB(10, 10, 10)
+	textName.TextColor3 = Color3.fromRGB(0, 100, 255)
 	textName.TextSize = 18.000
 	textName.TextWrapped = true
 
@@ -239,7 +239,7 @@ function ret:Library(Name)
 		TextLabel.Size = UDim2.new(0, 95, 0, 24)
 		TextLabel.Font = Enum.Font.SourceSansBold
 		TextLabel.Text = tostring(rbrbrb)
-		TextLabel.TextColor3 = Color3.fromRGB(10, 10, 10)
+		TextLabel.TextColor3 = Color3.fromRGB(0, 100, 255)
 		TextLabel.TextSize = 20.000
 		TextLabel.TextStrokeTransparency = 1
 		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -254,7 +254,7 @@ function ret:Library(Name)
 		Min.Font = Enum.Font.SourceSans
 		Min.LineHeight = 1.150
 		Min.Text = "-"
-		Min.TextColor3 = Color3.fromRGB(10, 10, 10)
+		Min.TextColor3 = Color3.fromRGB(0, 100, 255)
 		Min.TextSize = 39.000
 
 		Max.Name = "Max"
@@ -266,7 +266,7 @@ function ret:Library(Name)
 		Max.Size = UDim2.new(0, 17, 0, 17)
 		Max.Font = Enum.Font.SourceSans
 		Max.Text = ""
-		Max.TextColor3 = Color3.fromRGB(10, 10, 10)
+		Max.TextColor3 = Color3.fromRGB(0, 100, 255)
 		Max.TextSize = 35.000
 		Max.TextWrapped = true
 
@@ -344,7 +344,7 @@ function ret:Library(Name)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
 			TextButton.Text = tostring(name)
-			TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
 			TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -382,7 +382,7 @@ function ret:Library(Name)
 			TextButton.Position = UDim2.new(0.026041666, 10, 10, 10)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
-			TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextButton.Text = tostring(n)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
@@ -418,7 +418,7 @@ function ret:Library(Name)
 			TextButton.Size = UDim2.new(0, 148, 0, 20)
 			TextButton.Font = Enum.Font.SourceSansBold
 			TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-			TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextButton.TextSize = 15.000
 			TextButton.TextStrokeTransparency = 1
 
@@ -473,7 +473,7 @@ function ret:Library(Name)
 			TextLabel.Size = UDim2.new(0, 148, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(text)
-			TextLabel.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -507,7 +507,7 @@ function ret:Library(Name)
 			SliderFrame.Size = UDim2.new(0, 148, 0, 20)
 			SliderFrame.Font = Enum.Font.SourceSansBold
 			SliderFrame.Text = tostring(n)..": "..tostring(default)
-			SliderFrame.TextColor3 = Color3.fromRGB(10, 10, 10)
+			SliderFrame.TextColor3 = Color3.fromRGB(0, 100, 255)
 			SliderFrame.TextSize = 15.000
 			SliderFrame.TextStrokeTransparency = 1
 			SliderFrame.ZIndex = 2
@@ -525,7 +525,7 @@ function ret:Library(Name)
 			Slider_2.Size = UDim2.new(0, 12, 0, 18)
 			Slider_2.Font = Enum.Font.SourceSans
 			Slider_2.Text = ""
-			Slider_2.TextColor3 = Color3.fromRGB(10, 10, 10)
+			Slider_2.TextColor3 = Color3.fromRGB(0, 100, 255)
 			Slider_2.TextSize = 15.000
 			Slider_2.BackgroundTransparency = .2
 
@@ -597,7 +597,7 @@ function ret:Library(Name)
 			TextBox.PlaceholderText = tostring(n)
 			TextBox.Font = Enum.Font.SourceSansBold
 			TextBox.Text = ""
-			TextBox.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextBox.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextBox.TextSize = 15.000
 			TextBox.TextStrokeTransparency = 1
 			TextBox.TextXAlignment = Enum.TextXAlignment.Left
@@ -690,7 +690,7 @@ function ret:Library(Name)
 			TextLabel.Size = UDim2.new(0, 128, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(n)
-			TextLabel.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -803,7 +803,7 @@ function ret:Library(Name)
 				Option.Size = UDim2.new(0, 140, 0, 20)
 				Option.Text = tostring(thing)
 				Option.Font = Enum.Font.SourceSansBold
-				Option.TextColor3 = Color3.fromRGB(10, 10, 10)
+				Option.TextColor3 = Color3.fromRGB(0, 100, 255)
 				Option.TextSize = 15.000
 				Option.TextStrokeTransparency = 1
 				Option.TextXAlignment = Enum.TextXAlignment.Left
@@ -880,7 +880,7 @@ function ret:Library(Name)
 			TextLabel.Size = UDim2.new(0, 128, 0, 20)
 			TextLabel.Font = Enum.Font.SourceSansBold
 			TextLabel.Text = tostring(n)
-			TextLabel.TextColor3 = Color3.fromRGB(10, 10, 10)
+			TextLabel.TextColor3 = Color3.fromRGB(0, 100, 255)
 			TextLabel.TextSize = 15.000
 			TextLabel.TextStrokeTransparency = 1
 			TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -1000,7 +1000,7 @@ function ret:Library(Name)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
 				TextButton.Text = tostring(name)
-				TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+				TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
 				TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -1037,7 +1037,7 @@ function ret:Library(Name)
 				TextButton.Position = UDim2.new(0.026041666, 10, 10, 10)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
-				TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+				TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 				TextButton.Text = tostring(n)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
@@ -1072,7 +1072,7 @@ function ret:Library(Name)
 				TextButton.Size = UDim2.new(0, 140, 0, 20)
 				TextButton.Font = Enum.Font.SourceSansBold
 				TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-				TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+				TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 				TextButton.TextSize = 15.000
 				TextButton.TextStrokeTransparency = 1
 	
@@ -1127,7 +1127,7 @@ function ret:Library(Name)
 				SliderFrame.Size = UDim2.new(0, 140, 0, 20)
 				SliderFrame.Font = Enum.Font.SourceSansBold
 				SliderFrame.Text = tostring(n)..": "..tostring(default)
-				SliderFrame.TextColor3 = Color3.fromRGB(10, 10, 10)
+				SliderFrame.TextColor3 = Color3.fromRGB(0, 100, 255)
 				SliderFrame.TextSize = 15.000
 				SliderFrame.TextStrokeTransparency = 1
 				SliderFrame.ZIndex = 2
@@ -1145,7 +1145,7 @@ function ret:Library(Name)
 				Slider_2.Size = UDim2.new(0, 12, 0, 18)
 				Slider_2.Font = Enum.Font.SourceSans
 				Slider_2.Text = ""
-				Slider_2.TextColor3 = Color3.fromRGB(10, 10, 10)
+				Slider_2.TextColor3 = Color3.fromRGB(0, 100, 255)
 				Slider_2.TextSize = 15.000
 				Slider_2.BackgroundTransparency = .2
 	
@@ -1216,7 +1216,7 @@ function ret:Library(Name)
 				TextBox.PlaceholderText = tostring(n)
 				TextBox.Font = Enum.Font.SourceSansBold
 				TextBox.Text = ""
-				TextBox.TextColor3 = Color3.fromRGB(10, 10, 10)
+				TextBox.TextColor3 = Color3.fromRGB(0, 100, 255)
 				TextBox.TextSize = 15.000
 				TextBox.TextStrokeTransparency = 1
 				TextBox.TextXAlignment = Enum.TextXAlignment.Left
@@ -1362,7 +1362,7 @@ function ret:Library(Name)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
 					TextButton.Text = tostring(name)
-					TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+					TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
 					TextButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -1402,7 +1402,7 @@ function ret:Library(Name)
 					TextButton.Position = UDim2.new(10, 10, 10, 0)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
-					TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+					TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 					TextButton.Text = tostring(n)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
@@ -1440,7 +1440,7 @@ function ret:Library(Name)
 					TextButton.Size = UDim2.new(0, 148/2, 0, 20)
 					TextButton.Font = Enum.Font.SourceSansBold
 					TextButton.Text = tostring(n).." : "..tostring(d):sub(14):lower()
-					TextButton.TextColor3 = Color3.fromRGB(10, 10, 10)
+					TextButton.TextColor3 = Color3.fromRGB(0, 100, 255)
 					TextButton.TextSize = 15.000
 					TextButton.TextStrokeTransparency = 1
 		
@@ -1498,7 +1498,7 @@ function ret:Library(Name)
 					SliderFrame.Size = UDim2.new(0, 148/2, 0, 20)
 					SliderFrame.Font = Enum.Font.SourceSansBold
 					SliderFrame.Text = tostring(n)..": "..tostring(default)
-					SliderFrame.TextColor3 = Color3.fromRGB(10, 10, 10)
+					SliderFrame.TextColor3 = Color3.fromRGB(0, 100, 255)
 					SliderFrame.TextSize = 15.000
 					SliderFrame.TextStrokeTransparency = 1
 					SliderFrame.ZIndex = 2
@@ -1516,7 +1516,7 @@ function ret:Library(Name)
 					Slider_2.Size = UDim2.new(0, 12, 0, 18)
 					Slider_2.Font = Enum.Font.SourceSans
 					Slider_2.Text = ""
-					Slider_2.TextColor3 = Color3.fromRGB(10, 10, 10)
+					Slider_2.TextColor3 = Color3.fromRGB(0, 100, 255)
 					Slider_2.TextSize = 15.000
 					Slider_2.BackgroundTransparency = .2
 		
@@ -1590,7 +1590,7 @@ function ret:Library(Name)
 					TextBox.PlaceholderText = tostring(n)
 					TextBox.Font = Enum.Font.SourceSansBold
 					TextBox.Text = ""
-					TextBox.TextColor3 = Color3.fromRGB(10, 10, 10)
+					TextBox.TextColor3 = Color3.fromRGB(0, 100, 255)
 					TextBox.TextSize = 15.000
 					TextBox.TextStrokeTransparency = 1
 					TextBox.TextXAlignment = Enum.TextXAlignment.Left
