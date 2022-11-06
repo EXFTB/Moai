@@ -98,10 +98,10 @@ function ret:Library(Name)
 	UITextSizeConstraint.MaxTextSize = 18
 
 	NormalSound.SoundId = "rbxassetid://2254874567"
-	NormalSound.Volume = 0.28
+	NormalSound.Volume = 008
 	NormalSound.Parent = aui
 	ErrorSound.SoundId = "rbxassetid://2254874567"
-	ErrorSound.Volume = 0.28
+	ErrorSound.Volume = 008
 	ErrorSound.Parent = aui
 
 	local draggable = function(obj)
@@ -334,7 +334,7 @@ function ret:Library(Name)
 			Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 			Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Toggle.Size = UDim2.new(0, 154, 0, 20)
-			Toggle.BackgroundTransparency = .2
+			Toggle.BackgroundTransparency = 0
 
 			TextButton.Parent = Toggle
 			TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -373,7 +373,7 @@ function ret:Library(Name)
 			Button.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 			Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Button.Size = UDim2.new(0, 154, 0, 20)
-			Button.BackgroundTransparency = .2
+			Button.BackgroundTransparency = 0
 
 			TextButton.Parent = Button
 			TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -408,7 +408,7 @@ function ret:Library(Name)
 			Keybind.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 			Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Keybind.Size = UDim2.new(0, 154, 0, 20)
-			Keybind.BackgroundTransparency = .2
+			Keybind.BackgroundTransparency = 0
 
 			TextButton.Parent = Keybind
 			TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -462,7 +462,7 @@ function ret:Library(Name)
 			Label.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Label.Position = UDim2.new(0, 0, 0, 48)
 			Label.Size = UDim2.new(0, 154, 0, 20)
-			Label.BackgroundTransparency = .2
+			Label.BackgroundTransparency = 0
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Label
@@ -497,7 +497,7 @@ function ret:Library(Name)
 			Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Slider.Position = UDim2.new(0, 0, 0, 72)
 			Slider.Size = UDim2.new(0, 154, 0, 20)
-			Slider.BackgroundTransparency = .2
+			Slider.BackgroundTransparency = 0
 
 			SliderFrame.Parent = Slider
 			SliderFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -527,7 +527,7 @@ function ret:Library(Name)
 			Slider_2.Text = ""
 			Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Slider_2.TextSize = 15.000
-			Slider_2.BackgroundTransparency = .2
+			Slider_2.BackgroundTransparency = 0
 
 			OnToggleGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(46, 59, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(39, 49, 126))}
 			OnToggleGradient.Rotation = 90
@@ -582,7 +582,7 @@ function ret:Library(Name)
 			Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Textbox.Position = UDim2.new(0, 0, 0, 168)
 			Textbox.Size = UDim2.new(0, 154, 0, 20)
-			Textbox.BackgroundTransparency = .2
+			Textbox.BackgroundTransparency = 0
 
 			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 87, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(78, 77, 73))}
 			UIGradient.Rotation = 90
@@ -679,7 +679,7 @@ function ret:Library(Name)
 			Dropdown.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Dropdown.Position = UDim2.new(0, 0, 0, 24)
 			Dropdown.Size = UDim2.new(0, 154, 0, 20)
-			Dropdown.BackgroundTransparency = .2
+			Dropdown.BackgroundTransparency = 0
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Dropdown
@@ -720,7 +720,7 @@ function ret:Library(Name)
 			DFrame.Position = UDim2.new(0, 0, 1, 0)
 			DFrame.Size = UDim2.new(0, 154, 0, 100)
 			DFrame.Visible = false
-			DFrame.BackgroundTransparency = .2
+			DFrame.BackgroundTransparency = 0
 
 			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 87, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(78, 77, 73))}
 			UIGradient.Rotation = 90
@@ -869,7 +869,7 @@ function ret:Library(Name)
 			Dropdown.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			Dropdown.Position = UDim2.new(0, 0, 0, 24)
 			Dropdown.Size = UDim2.new(0, 154, 0, 20)
-			Dropdown.BackgroundTransparency = .2
+			Dropdown.BackgroundTransparency = 0
 
 			TextLabel.Name = "TextLabel"
 			TextLabel.Parent = Dropdown
@@ -910,7 +910,7 @@ function ret:Library(Name)
 			DFrame.Position = UDim2.new(0, 0, 1, 0)
 			DFrame.Size = UDim2.new(0, 154, 0, 100)
 			DFrame.Visible = false
-			DFrame.BackgroundTransparency = .2
+			DFrame.BackgroundTransparency = 0
 
 			UIListLayout.Parent = DFrame
 			UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -990,7 +990,7 @@ function ret:Library(Name)
 				Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 				Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Toggle.Size = UDim2.new(0, 146, 0, 20)
-				Toggle.BackgroundTransparency = .2
+				Toggle.BackgroundTransparency = 0
 	
 				TextButton.Parent = Toggle
 				TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1028,7 +1028,7 @@ function ret:Library(Name)
 				Button.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 				Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Button.Size = UDim2.new(0, 146, 0, 20)
-				Button.BackgroundTransparency = .2
+				Button.BackgroundTransparency = 0
 	
 				TextButton.Parent = Button
 				TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1062,7 +1062,7 @@ function ret:Library(Name)
 				Keybind.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 				Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Keybind.Size = UDim2.new(0, 146, 0, 20)
-				Keybind.BackgroundTransparency = .2
+				Keybind.BackgroundTransparency = 0
 	
 				TextButton.Parent = Keybind
 				TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1117,7 +1117,7 @@ function ret:Library(Name)
 				Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Slider.Position = UDim2.new(0, 0, 0, 72)
 				Slider.Size = UDim2.new(0, 146, 0, 20)
-				Slider.BackgroundTransparency = .2
+				Slider.BackgroundTransparency = 0
 	
 				SliderFrame.Parent = Slider
 				SliderFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1147,7 +1147,7 @@ function ret:Library(Name)
 				Slider_2.Text = ""
 				Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 				Slider_2.TextSize = 15.000
-				Slider_2.BackgroundTransparency = .2
+				Slider_2.BackgroundTransparency = 0
 	
 				OnToggleGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(46, 59, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(39, 49, 126))}
 				OnToggleGradient.Rotation = 90
@@ -1201,7 +1201,7 @@ function ret:Library(Name)
 				Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 				Textbox.Position = UDim2.new(0, 0, 0, 168)
 				Textbox.Size = UDim2.new(0, 146, 0, 20)
-				Textbox.BackgroundTransparency = .2
+				Textbox.BackgroundTransparency = 0
 	
 				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 87, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(78, 77, 73))}
 				UIGradient.Rotation = 90
@@ -1327,7 +1327,7 @@ function ret:Library(Name)
 			SplitHolder.Name = "SplitFrame"
 			SplitHolder.Parent = Holder
 			SplitHolder.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
-			SplitHolder.BackgroundTransparency = 0.200
+			SplitHolder.BackgroundTransparency = 0000
 			SplitHolder.BorderColor3 = Color3.fromRGB(23, 25, 52)
 			SplitHolder.Size = UDim2.new(0, 153, 0, 20)
 			SplitHolder.BackgroundTransparency = 1
@@ -1352,7 +1352,7 @@ function ret:Library(Name)
 					Toggle.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 					Toggle.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Toggle.Size = UDim2.new(0, 154/2, 0, 20)
-					Toggle.BackgroundTransparency = .2
+					Toggle.BackgroundTransparency = 0
 		
 					TextButton.Parent = Toggle
 					TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1393,7 +1393,7 @@ function ret:Library(Name)
 					Button.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 					Button.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Button.Size = UDim2.new(0, 154/2, 0, 20)
-					Button.BackgroundTransparency = .2
+					Button.BackgroundTransparency = 0
 		
 					TextButton.Parent = Button
 					TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1430,7 +1430,7 @@ function ret:Library(Name)
 					Keybind.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 					Keybind.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Keybind.Size = UDim2.new(0, 154/2, 0, 20)
-					Keybind.BackgroundTransparency = .2
+					Keybind.BackgroundTransparency = 0
 		
 					TextButton.Parent = Keybind
 					TextButton.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1488,7 +1488,7 @@ function ret:Library(Name)
 					Slider.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Slider.Position = UDim2.new(0, 0, 0, 0)
 					Slider.Size = UDim2.new(0, 154/2, 0, 20)
-					Slider.BackgroundTransparency = .2
+					Slider.BackgroundTransparency = 0
 		
 					SliderFrame.Parent = Slider
 					SliderFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -1518,7 +1518,7 @@ function ret:Library(Name)
 					Slider_2.Text = ""
 					Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 					Slider_2.TextSize = 15.000
-					Slider_2.BackgroundTransparency = .2
+					Slider_2.BackgroundTransparency = 0
 		
 					OnToggleGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(46, 59, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(39, 49, 126))}
 					OnToggleGradient.Rotation = 90
@@ -1575,7 +1575,7 @@ function ret:Library(Name)
 					Textbox.BorderColor3 = Color3.fromRGB(23, 25, 52)
 					Textbox.Position = UDim2.new(0, 0, 0, 0)
 					Textbox.Size = UDim2.new(0, 154/2, 0, 20)
-					Textbox.BackgroundTransparency = .2
+					Textbox.BackgroundTransparency = 0
 		
 					UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 87, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(78, 77, 73))}
 					UIGradient.Rotation = 90
